@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FootballPool.Simulator\FootballPool.Simulator.csproj" />
+  </ItemGroup>
+
 </Project>

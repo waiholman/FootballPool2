@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FootballPool.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="684">
     <Grid>
+        <Button x:Name="btnCreateLeague" Content="Create league" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="btnSimulate_Click"/>
+        <Button x:Name="btnSimulateRound" Content="Simulate Round" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Click="btnSimulateRound_Click"/>
+        <Button x:Name="btnSimulateWholeLeague" Content="Create &amp; Simulate whole league" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Width="184" Click="btnSimulateWholeLeague_Click"/>
+        <DataGrid x:Name="dtgrdScoreboard" Margin="207,30,10,256"/>
+        <TextBox x:Name="txtMatchResult" HorizontalAlignment="Left" Margin="207,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="467" Height="241"/>
 
     </Grid>
 </Window>
